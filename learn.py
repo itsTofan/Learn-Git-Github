@@ -6,7 +6,7 @@ def check_reboot():
 
 def main():
     if check_reboot():
-        print ("Pending Reboot MY PC")
+        print ("Pending Reboot LLL")
         sys.exit(1)
     print ("Everything ok")
     sys.exit(0)
